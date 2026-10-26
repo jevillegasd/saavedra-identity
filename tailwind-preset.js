@@ -9,7 +9,7 @@
  *   brand-gold-ink ................ gold that is readable as small text on light backgrounds
  *   gain / loss / neutral / warn / info ...... data semantics; never brand colours
  *   series-1..8 ................... categorical series for charts
- *   verdict-strong|promising|weak|none ....... the honest verdict badges
+ *   verdict-strong|promising|weak|none ....... the honest verdict badges (each with a -foreground for its text)
  *   chart-* ....................... chart surfaces
  */
 const hsl = (name) => `hsl(var(--${name}) / <alpha-value>)`;
@@ -31,7 +31,11 @@ module.exports = {
         warn: v("warn"),
         info: v("info"),
         series: { 1: v("series-1"), 2: v("series-2"), 3: v("series-3"), 4: v("series-4"), 5: v("series-5"), 6: v("series-6"), 7: v("series-7"), 8: v("series-8") },
-        verdict: { strong: v("verdict-strong"), promising: v("verdict-promising"), weak: v("verdict-weak"), none: v("verdict-none") },
+        verdict: {
+          strong: v("verdict-strong"), promising: v("verdict-promising"), weak: v("verdict-weak"), none: v("verdict-none"),
+          // text on a verdict badge: `bg-verdict-weak text-verdict-weak-foreground`; never plain white
+          "strong-foreground": v("verdict-strong-foreground"), "promising-foreground": v("verdict-promising-foreground"), "weak-foreground": v("verdict-weak-foreground"), "none-foreground": v("verdict-none-foreground"),
+        },
         chart: { bg: v("chart-bg"), grid: v("chart-grid"), axis: v("chart-axis"), crosshair: v("chart-crosshair") },
         border: hsl("border"),
         input: hsl("input"),

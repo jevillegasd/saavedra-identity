@@ -1,6 +1,6 @@
 {
   "name": "@saavedra/identity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The Saavedra family identity for every Saavedra app: colour tokens (light and dark), typography, logos, a Tailwind preset and a React logo component.",
   "license": "SEE LICENSE IN README.md",
   "private": false,

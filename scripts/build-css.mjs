@@ -35,7 +35,7 @@ function block(theme) {
   lines.push(`  /* data semantics: never reuse brand colours for meaning */`);
   for (const k of ["gain", "loss", "neutral", "warn", "info", "gain-alt", "loss-alt"]) lines.push(`  --${k}: ${t[k]};`);
   for (let i = 1; i <= 8; i++) lines.push(`  --series-${i}: ${t[`series-${i}`]};`);
-  for (const k of ["verdict-strong", "verdict-promising", "verdict-weak", "verdict-none"]) lines.push(`  --${k}: ${t[k]};`);
+  for (const v of ["strong", "promising", "weak", "none"]) for (const k of [`verdict-${v}`, `verdict-${v}-foreground`]) lines.push(`  --${k}: ${t[k]};`);
   lines.push(`  /* charts */`);
   for (const k of ["chart-bg", "chart-grid", "chart-axis", "chart-crosshair", "chart-label-bg", "chart-label-fg"]) lines.push(`  --${k}: ${t[k]};`);
   return lines.join("\n");

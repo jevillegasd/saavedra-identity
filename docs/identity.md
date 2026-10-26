@@ -38,6 +38,7 @@ Money and data have their own colours so that meaning is never confused with bra
 | `info` | `#0E7490` | `#4FB3D1` | explanations, informational chips |
 | `series-1..8` | see tokens.json | | categorical chart series, in this order |
 | `verdict-strong/promising/weak/none` | green / gold / amber / grey | | the honest verdict badges, the same everywhere |
+| `verdict-*-foreground` | white or ink per verdict | ink | text on a verdict badge; white fails on amber and on every dark-theme verdict, so always pair the two |
 | `gain-alt` / `loss-alt` | blue / orange | | the colour-blind-safe pair; `.palette-colorblind` on `<html>` swaps them in |
 
 Rules: a gain and a loss never share a hue with a brand colour; correlation and other diverging scales run

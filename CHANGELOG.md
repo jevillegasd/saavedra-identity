@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.1 — 2026-10-26
+
+- New: `verdict-*-foreground`, the text colour on each verdict badge (white on strong/none in light, ink elsewhere),
+  with contrast pairs; white text failed on amber in light and on every verdict colour in dark.
+
 ## 0.1.0 — 2026-10-26
 
 First release, extracted from the trading app (`trading.saavedra.com.co`) and the natillera app.

@@ -1,4 +1,4 @@
-/* Saavedra identity 0.1.0: generated from tokens.json by scripts/build-css.mjs. Do not edit by hand. */
+/* Saavedra identity 0.1.1: generated from tokens.json by scripts/build-css.mjs. Do not edit by hand. */
 
 :root {
   color-scheme: light;
@@ -52,9 +52,13 @@
   --series-7: #4D7C0F;
   --series-8: #7C2D12;
   --verdict-strong: #15803D;
+  --verdict-strong-foreground: #FFFFFF;
   --verdict-promising: #B69A56;
+  --verdict-promising-foreground: #102A24;
   --verdict-weak: #D97706;
+  --verdict-weak-foreground: #1F2937;
   --verdict-none: #64748B;
+  --verdict-none-foreground: #FFFFFF;
   /* charts */
   --chart-bg: #FFFFFF;
   --chart-grid: #E6EBE8;
@@ -111,9 +115,13 @@
   --series-7: #9BD35B;
   --series-8: #E0A185;
   --verdict-strong: #3DCB84;
+  --verdict-strong-foreground: #0F1B18;
   --verdict-promising: #D6BE7E;
+  --verdict-promising-foreground: #14221E;
   --verdict-weak: #E3A431;
+  --verdict-weak-foreground: #0F1B18;
   --verdict-none: #94A3B8;
+  --verdict-none-foreground: #0F1B18;
   /* charts */
   --chart-bg: #15231F;
   --chart-grid: #22332D;
