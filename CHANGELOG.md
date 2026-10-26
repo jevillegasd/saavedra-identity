@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.2 — 2026-10-27
+
+- Fix: the Tailwind preset's font stacks referenced `--font-cinzel` and `--font-inter`, which no stylesheet
+  defines; an undefined `var()` invalidates the whole `font-family`, so Cinzel and Inter never applied and pages
+  fell back to the browser's default serif. The stacks are plain family names again.
+- Dark theme: neutral graphite surfaces (background `#121413`, card `#1A1D1C`) instead of green-tinted ones; the
+  brand green stays on the navbar surface, buttons, links and charts.
+
 ## 0.1.1 — 2026-10-26
 
 - New: `verdict-*-foreground`, the text colour on each verdict badge (white on strong/none in light, ink elsewhere),

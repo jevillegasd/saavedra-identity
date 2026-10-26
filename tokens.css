@@ -1,4 +1,4 @@
-/* Saavedra identity 0.1.1: generated from tokens.json by scripts/build-css.mjs. Do not edit by hand. */
+/* Saavedra identity 0.1.2: generated from tokens.json by scripts/build-css.mjs. Do not edit by hand. */
 
 :root {
   color-scheme: light;
@@ -71,27 +71,27 @@
 .dark,
 [data-theme="dark"] {
   color-scheme: dark;
-  --color-bg-app: #0F1B18;
+  --color-bg-app: #121413;
   --color-text-main: #E8E6DF;
   /* shadcn/ui tokens as HSL triplets */
-  --background: 165 29% 8%; /* #0F1B18 */
+  --background: 150 5% 7%; /* #121413 */
   --foreground: 47 16% 89%; /* #E8E6DF */
-  --card: 163 25% 11%; /* #15231F */
+  --card: 160 5% 11%; /* #1A1D1C */
   --card-foreground: 47 16% 89%; /* #E8E6DF */
-  --popover: 163 25% 11%; /* #15231F */
+  --popover: 160 5% 11%; /* #1A1D1C */
   --popover-foreground: 47 16% 89%; /* #E8E6DF */
   --primary: 164 41% 31%; /* #2E6F5E */
   --primary-foreground: 45 27% 94%; /* #F4F2EC */
-  --secondary: 163 24% 15%; /* #1D2F2A */
-  --secondary-foreground: 159 26% 85%; /* #CFE3DC */
-  --muted: 163 20% 18%; /* #243631 */
-  --muted-foreground: 150 7% 67%; /* #A6B2AC */
+  --secondary: 165 5% 15%; /* #232726 */
+  --secondary-foreground: 47 14% 87%; /* #E3E1DA */
+  --muted: 165 5% 17%; /* #2A2E2D */
+  --muted-foreground: 150 4% 67%; /* #A9AFAC */
   --accent: 44 52% 67%; /* #D6BE7E */
-  --accent-foreground: 163 26% 11%; /* #14221E */
+  --accent-foreground: 60 6% 10%; /* #1A1A17 */
   --destructive: 358 58% 50%; /* #C9353A */
   --destructive-foreground: 0 0% 100%; /* #FFFFFF */
-  --border: 161 18% 20%; /* #2A3D37 */
-  --input: 161 18% 20%; /* #2A3D37 */
+  --border: 156 5% 21%; /* #343937 */
+  --input: 156 5% 21%; /* #343937 */
   --ring: 44 52% 67%; /* #D6BE7E */
   /* brand, as hex: ink colours change with the theme, the surface does not */
   --brand-green: #8FCBB8;
@@ -115,20 +115,20 @@
   --series-7: #9BD35B;
   --series-8: #E0A185;
   --verdict-strong: #3DCB84;
-  --verdict-strong-foreground: #0F1B18;
+  --verdict-strong-foreground: #121413;
   --verdict-promising: #D6BE7E;
-  --verdict-promising-foreground: #14221E;
+  --verdict-promising-foreground: #1A1A17;
   --verdict-weak: #E3A431;
-  --verdict-weak-foreground: #0F1B18;
+  --verdict-weak-foreground: #121413;
   --verdict-none: #94A3B8;
-  --verdict-none-foreground: #0F1B18;
+  --verdict-none-foreground: #121413;
   /* charts */
-  --chart-bg: #15231F;
-  --chart-grid: #22332D;
-  --chart-axis: #A6B2AC;
-  --chart-crosshair: #6B7A74;
+  --chart-bg: #1A1D1C;
+  --chart-grid: #272B2A;
+  --chart-axis: #A9AFAC;
+  --chart-crosshair: #6E7471;
   --chart-label-bg: #E8E6DF;
-  --chart-label-fg: #0F1B18;
+  --chart-label-fg: #121413;
 }
 
 /* Colour-blind-safe gain/loss: opt in with .palette-colorblind on <html> */

@@ -19,7 +19,7 @@ they also need: a dark theme, colour semantics for money and data, and rules for
 | `brand-surface` | `#143A32` | `#143A32` | the navbar and hero bands; the same in both themes so the bar is always the deep green |
 | `brand-gold` | `#B69A56` | `#D6BE7E` | accents on the green surface, active links, badges, the Promising verdict |
 | `brand-gold-ink` | `#7F6A2E` | `#D6BE7E` | gold that is readable as small text on the light background (plain gold is not: 2.6:1) |
-| `background` / `card` | `#FBFBF9` / `#FFFFFF` | `#0F1B18` / `#15231F` | page and card surfaces |
+| `background` / `card` | `#FBFBF9` / `#FFFFFF` | `#121413` / `#1A1D1C` | page and card surfaces |
 | `primary` | `#143A32` | `#2E6F5E` | buttons; the dark theme lightens it so off-white text still passes |
 | `accent` | `#B69A56` | `#D6BE7E` | gold buttons and highlights, dark text on them |
 | `muted-foreground` | `#5F6B7A` | `#A6B2AC` | explanations, labels; 4.5:1 or better on page and card |

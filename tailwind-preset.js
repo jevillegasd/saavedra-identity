@@ -51,8 +51,9 @@ module.exports = {
         popover: { DEFAULT: hsl("popover"), foreground: hsl("popover-foreground") },
       },
       fontFamily: {
-        heading: ["var(--font-cinzel)", "Cinzel", "serif"],
-        sans: ["var(--font-inter)", "Inter", "system-ui", "sans-serif"],
+        // plain family names: a var() that is not defined would invalidate the whole font-family declaration
+        heading: ["Cinzel", "serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
       },
       fontSize: {
         // the identity's floor: nothing below 12px; sentences meant to be read are 14px or more
