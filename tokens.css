@@ -1,0 +1,131 @@
+/* Saavedra identity 0.1.0: generated from tokens.json by scripts/build-css.mjs. Do not edit by hand. */
+
+:root {
+  color-scheme: light;
+  --font-heading: Cinzel, serif;
+  --font-body: Inter, system-ui, sans-serif;
+  --radius: 0.5rem;
+  /* legacy names kept for the first consumers */
+  --color-bg-app: #FBFBF9;
+  --color-text-main: #1F2937;
+  --color-up: var(--gain);
+  --color-down: var(--loss);
+  /* shadcn/ui tokens as HSL triplets */
+  --background: 60 20% 98%; /* #FBFBF9 */
+  --foreground: 215 28% 17%; /* #1F2937 */
+  --card: 0 0% 100%; /* #FFFFFF */
+  --card-foreground: 215 28% 17%; /* #1F2937 */
+  --popover: 0 0% 100%; /* #FFFFFF */
+  --popover-foreground: 215 28% 17%; /* #1F2937 */
+  --primary: 167 49% 15%; /* #143A32 */
+  --primary-foreground: 60 20% 98%; /* #FBFBF9 */
+  --secondary: 158 26% 92%; /* #E4EFEB */
+  --secondary-foreground: 167 49% 15%; /* #143A32 */
+  --muted: 60 13% 92%; /* #EEEEE9 */
+  --muted-foreground: 213 12% 43%; /* #5F6B7A */
+  --accent: 42 40% 53%; /* #B69A56 */
+  --accent-foreground: 166 45% 11%; /* #102A24 */
+  --destructive: 0 74% 42%; /* #B91C1C */
+  --destructive-foreground: 0 0% 98%; /* #FAFAFA */
+  --border: 153 16% 86%; /* #D7E2DD */
+  --input: 153 16% 86%; /* #D7E2DD */
+  --ring: 42 40% 53%; /* #B69A56 */
+  /* brand, as hex: ink colours change with the theme, the surface does not */
+  --brand-green: #143A32;
+  --brand-green-surface: #143A32;
+  --brand-gold: #B69A56;
+  --brand-gold-ink: #7F6A2E;
+  /* data semantics: never reuse brand colours for meaning */
+  --gain: #15803D;
+  --loss: #B91C1C;
+  --neutral: #64748B;
+  --warn: #B45309;
+  --info: #0E7490;
+  --gain-alt: #2563EB;
+  --loss-alt: #C2570A;
+  --series-1: #143A32;
+  --series-2: #7F6A2E;
+  --series-3: #0E7490;
+  --series-4: #BE185D;
+  --series-5: #6D28D9;
+  --series-6: #B45309;
+  --series-7: #4D7C0F;
+  --series-8: #7C2D12;
+  --verdict-strong: #15803D;
+  --verdict-promising: #B69A56;
+  --verdict-weak: #D97706;
+  --verdict-none: #64748B;
+  /* charts */
+  --chart-bg: #FFFFFF;
+  --chart-grid: #E6EBE8;
+  --chart-axis: #5F6B7A;
+  --chart-crosshair: #9CA3AF;
+  --chart-label-bg: #1F2937;
+  --chart-label-fg: #FFFFFF;
+}
+
+.dark,
+[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg-app: #0F1B18;
+  --color-text-main: #E8E6DF;
+  /* shadcn/ui tokens as HSL triplets */
+  --background: 165 29% 8%; /* #0F1B18 */
+  --foreground: 47 16% 89%; /* #E8E6DF */
+  --card: 163 25% 11%; /* #15231F */
+  --card-foreground: 47 16% 89%; /* #E8E6DF */
+  --popover: 163 25% 11%; /* #15231F */
+  --popover-foreground: 47 16% 89%; /* #E8E6DF */
+  --primary: 164 41% 31%; /* #2E6F5E */
+  --primary-foreground: 45 27% 94%; /* #F4F2EC */
+  --secondary: 163 24% 15%; /* #1D2F2A */
+  --secondary-foreground: 159 26% 85%; /* #CFE3DC */
+  --muted: 163 20% 18%; /* #243631 */
+  --muted-foreground: 150 7% 67%; /* #A6B2AC */
+  --accent: 44 52% 67%; /* #D6BE7E */
+  --accent-foreground: 163 26% 11%; /* #14221E */
+  --destructive: 358 58% 50%; /* #C9353A */
+  --destructive-foreground: 0 0% 100%; /* #FFFFFF */
+  --border: 161 18% 20%; /* #2A3D37 */
+  --input: 161 18% 20%; /* #2A3D37 */
+  --ring: 44 52% 67%; /* #D6BE7E */
+  /* brand, as hex: ink colours change with the theme, the surface does not */
+  --brand-green: #8FCBB8;
+  --brand-green-surface: #143A32;
+  --brand-gold: #D6BE7E;
+  --brand-gold-ink: #D6BE7E;
+  /* data semantics: never reuse brand colours for meaning */
+  --gain: #3DCB84;
+  --loss: #F26D6A;
+  --neutral: #94A3B8;
+  --warn: #E3A431;
+  --info: #4FB3D1;
+  --gain-alt: #6BA3F5;
+  --loss-alt: #F2A24A;
+  --series-1: #8FCBB8;
+  --series-2: #D6BE7E;
+  --series-3: #4FB3D1;
+  --series-4: #F28BB4;
+  --series-5: #B59CF5;
+  --series-6: #E3A431;
+  --series-7: #9BD35B;
+  --series-8: #E0A185;
+  --verdict-strong: #3DCB84;
+  --verdict-promising: #D6BE7E;
+  --verdict-weak: #E3A431;
+  --verdict-none: #94A3B8;
+  /* charts */
+  --chart-bg: #15231F;
+  --chart-grid: #22332D;
+  --chart-axis: #A6B2AC;
+  --chart-crosshair: #6B7A74;
+  --chart-label-bg: #E8E6DF;
+  --chart-label-fg: #0F1B18;
+}
+
+/* Colour-blind-safe gain/loss: opt in with .palette-colorblind on <html> */
+.palette-colorblind {
+  --gain: var(--gain-alt);
+  --loss: var(--loss-alt);
+  --verdict-strong: var(--gain-alt);
+}
